@@ -847,14 +847,14 @@ section button:hover {
 
 /*//////////////////////////////////////////////////////////////////////*/
 
-.gallery {
+.Archive {
   position: fixed;
   bottom: 15px;
   right : 5%
 }
 
 
-.gallery {
+.Archive {
     line-height: 30px;
     margin: 15px auto;
     padding: 0 !important;
@@ -865,7 +865,7 @@ section button:hover {
     -webkit-background-size:30px 30px;
     background-size:30px 30px;
 }
-.gallery span {
+.Archive span {
     color: #fff;
     border: 5px solid #ffffff;
     text-transform: uppercase;
@@ -889,11 +889,11 @@ section button:hover {
     -webkit-transform-style: preserve-3d;
     transform-style: preserve-3d;
 }
-.gallery span:hover{
+.Archive span:hover{
   -webkit-transform: rotateX(90deg) translateY(-22px);
     transform: rotateX(90deg) translateY(-22px);
 }
-.gallery span::before{
+.Archive span::before{
     position: absolute;
     top: 100%;
     left: -5px;
