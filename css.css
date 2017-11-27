@@ -487,7 +487,7 @@ imageAnimation { 0% {
 
 .content p {
   font-size: 114px;
-  color: green;
+  color: #f8fe5b;
   background: linear-gradient(45deg,
 			blue 25%, hotpink 0, hotpink 50%,
 			blue 0, blue 75%, hotpink 0);
