@@ -4,7 +4,8 @@
 @font-face {
 	font-family: 'DSEG7ClassicRegular';
 	src: url('font/DSEG7ClassicRegular.eot');
-	src: local('DSEG7ClassicRegular'), url('font/DSEG7ClassicRegular.woff') format('woff'), url('font/DSEG7ClassicRegular.ttf') format('truetype');
+	src: local('DSEG7ClassicRegular'), url('font/DSEG7ClassicRegular.eot?#iefix') format('embedded-opentype'),
+	url('font/DSEG7ClassicRegular.woff') format('woff'), url('font/DSEG7ClassicRegular.ttf') format('truetype');
 }
 body{margin:0;}
 canvas{display:block;}
@@ -489,7 +490,7 @@ imageAnimation { 0% {
 			blue 0, blue 75%, hotpink 0);
 			-webkit-background-size:50px 50px;
 			background-size:50px 50px;
-  font-family: "DSEG7 Classic", cursive;
+  font-family: "DSEG7 Classic", "Press Start 2P", cursive !important;
   text-shadow: 2px 2px 0 indigo, 3px 3px 0 indigo , 4px 4px 0 indigo , 5px 5px 0 indigo ,
 						  6px 6px 0 indigo , 7px 7px 0 indigo , 8px 8px 0 indigo ,
 							9px 9px 0 indigo , 10px 10px 0 indigo , 11px 11px 0 indigo ,
