@@ -2,11 +2,13 @@
 * {margin: 0;padding: 0;}
 @import url(http://scripts.sil.org/OFL);
 @font-face {
-	font-family: 'DSEG7ClassicRegular';
-	src: url('DSEG7ClassicRegular-webfont.eot');
-	src: local('DSEG7ClassicRegular'), url('DSEG7ClassicRegular-webfont.eot?#iefix') format('embedded-opentype'),
-	url('DSEG7ClassicRegular-webfont.woff') format('woff'), url('DSEG7ClassicRegular-webfont.ttf') format('truetype'),
-	url('DSEG7ClassicRegular-webfont.woff2') format('woff2');
+	    font-family: 'dseg7 classic';
+			src: url('fonts/DSEG7 Classic.eot');
+	    src: local('DSEG7 Classic'),  url('fonts/DSEG7 Classic.eot?#iefix') format('embedded-opentype'),
+			     url('fonts/dseg7classicregular-webfont.woff2') format('woff2'),  url('fonts/DSEG7 Classic.ttf') format('truetype'),
+	         url('fonts/dseg7classicregular-webfont.woff') format('woff');
+	    font-weight: normal;
+	    font-style: normal;
 }
 body{margin:0;}
 canvas{display:block;}
