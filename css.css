@@ -3,10 +3,10 @@
 @import url(http://scripts.sil.org/OFL);
 @font-face {
 	font-family: 'DSEG7ClassicRegular';
-	src: url('/font/DSEG7ClassicRegular-webfont.eot');
-	src: local('DSEG7ClassicRegular'), url('/font/DSEG7ClassicRegular-webfont.eot?#iefix') format('embedded-opentype'),
-	url('/font/DSEG7ClassicRegular-webfont.woff') format('woff'), url('/font/DSEG7ClassicRegular-webfont.ttf') format('truetype'),
-	url('/font/DSEG7ClassicRegular-webfont.woff2') format('woff2');
+	src: url('DSEG7ClassicRegular-webfont.eot');
+	src: local('DSEG7ClassicRegular'), url('DSEG7ClassicRegular-webfont.eot?#iefix') format('embedded-opentype'),
+	url('DSEG7ClassicRegular-webfont.woff') format('woff'), url('DSEG7ClassicRegular-webfont.ttf') format('truetype'),
+	url('DSEG7ClassicRegular-webfont.woff2') format('woff2');
 }
 body{margin:0;}
 canvas{display:block;}
