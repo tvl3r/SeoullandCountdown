@@ -480,7 +480,7 @@ imageAnimation { 0% {
 
 .content{
   left: 50%;
-  top: 50%;
+  top:50%;
   transform: translate(-50%, -50%);
   text-align: center;
 }
@@ -526,8 +526,6 @@ imageAnimation { 0% {
   left: 50%;
 
 }
-
-
 
 p {
   animation: hue-rotate 10s linear infinite;
@@ -776,9 +774,9 @@ section button:hover {
 /*///////////////////////////////////////////////*/
 .about {
   position: fixed;
-  bottom: -5px;
-	transform: translate(-50%, -50%);
-	left: 50%;
+  bottom: 15px;
+  left: 39%;
+  right: 50%;
 }
 
 .about {
@@ -844,7 +842,6 @@ section button:hover {
     -webkit-backface-visibility: hidden;
     backface-visibility: hidden;
 		}
-
 /*//////////////////////////////////////////////////////////////////////*/
 
 .Archive {
