@@ -1,11 +1,10 @@
 
-
 * {margin: 0;padding: 0;}
 @import url(http://scripts.sil.org/OFL);
 @font-face {
 	font-family: 'DSEG7ClassicRegular';
-	src: url('./DSEG7ClassicRegular.eot');
-	src: local('DSEG7ClassicRegular'), url('./DSEG7ClassicRegular.woff') format('woff'), url('./DSEG7ClassicRegular.ttf') format('truetype');
+	src: url('font/DSEG7ClassicRegular.eot');
+	src: local('DSEG7ClassicRegular'), url('font/DSEG7ClassicRegular.woff') format('woff'), url('font/DSEG7ClassicRegular.ttf') format('truetype');
 }
 body{margin:0;}
 canvas{display:block;}
@@ -773,9 +772,9 @@ section button:hover {
 /*///////////////////////////////////////////////*/
 .about {
   position: fixed;
-  bottom: 15px;
-  left: 39%;
-  right: 50%;
+  bottom: -5px;
+	transform: translate(-50%, -50%);
+	left: 50%;
 }
 
 .about {
