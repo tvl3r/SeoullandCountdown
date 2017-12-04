@@ -118,6 +118,8 @@ imageAnimation { 0% {
 
 
 /*본편*/
+
+
 #Alert {
 	position: fixed;
 	z-index: -1;
@@ -125,8 +127,11 @@ imageAnimation { 0% {
 }
 
 .r0,.r1,.r2,.r3,.r4,.r5,.r6,.r7,.r8,.r9,.r10,.r11,.r12, .r13, .r14,
-.r0_2,.r1_2,.r2_2,.r3_2,.r4_2,.r5_2,.r6_2,.r7_2,.r8_2,.r9_2,.r10_2,.r11_2,.r12_2, .r13_2, .r14_2,
-.r0_3,.r1_3,.r2_3,.r3_3,.r4_3,.r5_3,.r6_3,.r7_3,.r8_3,.r9_3,.r10_3,.r11_3,.r12_3, .r13_3, .r14_3 {
+	.r0_1,.r1_1,.r2_1,.r3_1,.r4_1,.r5_1,.r6_1,.r7_1,.r8_1,.r9_1,.r10_1,.r14_1,
+.r0_2,.r1_2,.r2_2,.r3_2,.r4_2,.r5_2,.r6_2,.r7_2,.r8_2,.r9_2,.r10_2,.r11_2,.r12_2, .r13_2,.r14_2,
+	.r0_2_1,.r1_2_1,.r2_2_1,.r3_2_1,.r4_2_1,.r5_2_1,.r6_2_1,.r7_2_1,.r8_2_1,.r9_2_1,.r10_2_1,.r14_2_1,
+.r0_3,.r1_3,.r2_3,.r3_3,.r4_3,.r5_3,.r6_3,.r7_3,.r8_3,.r9_3,.r10_3,.r11_3,.r12_3, .r13_3, .r14_3,
+	.r0_3_1,.r1_3_1,.r2_3_1,.r3_3_1,.r4_3_1,.r5_3_1,.r6_3_1,.r7_3_1,.r8_3_1,.r9_3_1,.r10_3_1,.r14_3_1 {
 	width: 180px;
 	height: auto;
 	animation-duration: 24s;
@@ -148,317 +153,95 @@ imageAnimation { 0% {
 	}
 @keyframes slidein {
   to {
-    margin-left: 300px;
+    margin-left: 1800px;
 		 }
 }
 
 
-.r14{
-	width: 180px;
-	height: auto;
-	position: fixed;
-	left: -320px;
-	top: 150px;
-}
-.r0{
-	width: 180px;
-	height: auto;
-	position: fixed;
-	left: -170px;
-}
-.r1{
-	width: 180px;
-	height: auto;
-	position: fixed;
-	left: -20px;
-	top: 150px;
-}
-.r2{
-	width: 180px;
-	height: auto;
-	position: fixed;
-	left: 130px;
-}
-.r3{
-	width: 180px;
-	height: auto;
-	position: fixed;
-	left: 280px;
-	top: 150px;
-}
-.r4{
-	width: 180px;
-	height: auto;
-	position: fixed;
-	left:430px;
-}
-.r5{
-	width: 180px;
-	height: auto;
-	position: fixed;
-	left:580px;
-	top: 150px;
-}
-.r6{
-	width: 180px;
-	height: auto;
-	position: fixed;
-	left:730px;
-}
-.r7{
-	width: 180px;
-	height: auto;
-	position: fixed;
-	left:880px;
-	top: 150px;
-}
-.r8{
-	width: 180px;
-	height: auto;
-	position: fixed;
-	left:1030px;
-}.r9{
-	width: 180px;
-	height: auto;
-	position: fixed;
-	left:1180px;
-	top: 150px;
-}.r10{
-	width: 180px;
-	height: auto;
-	position: fixed;
-	left:1330px;
-}.r11{
-	width: 180px;
-	height: auto;
-	position: fixed;
-	left:1480px;
-	top: 150px;
-}
-.r12{
-	width: 180px;
-	height: auto;
-	position: fixed;
-	left:1630px;
-}
-.r13{
-	width: 180px;
-	height: auto;
-	position: fixed;
-	left:1780px;
-	top: 150px;
-}
+.r14{ width: 180px;	height: auto;	position: fixed;	left: -320px;	top: 150px;}
+.r0{ 	width: 180px;	height: auto;	position: fixed;	left: -170px;}
+.r1{	width: 180px;	height: auto;	position: fixed;	left: -20px;	top: 150px;}
+.r2{	width: 180px;	height: auto;	position: fixed;	left: 130px;}
+.r3{	width: 180px;	height: auto;	position: fixed;	left: 280px;	top: 150px;}
+.r4{	width: 180px;	height: auto;	position: fixed;	left:430px;}
+.r5{	width: 180px;	height: auto;	position: fixed;	left:580px;	top: 150px;}
+.r6{	width: 180px;	height: auto;	position: fixed;	left:730px;}
+.r7{	width: 180px;	height: auto;	position: fixed;	left:880px;	top: 150px;}
+.r8{	width: 180px;	height: auto;	position: fixed;	left:1030px;}
+.r9{	width: 180px;	height: auto;	position: fixed;	left:1180px;	top: 150px;}
+.r10{	width: 180px;	height: auto;	position: fixed;	left:1330px;}
+.r11{	width: 180px;	height: auto;	position: fixed;	left:1480px;	top: 150px;}
+.r12{	width: 180px;	height: auto;	position: fixed;	left:1630px;}
+.r13{	width: 180px;	height: auto;	position: fixed;	left:1780px;	top: 150px;}
+	.r14_1{ width: 180px;	height: auto;	position: fixed;	left: -2120px;	top: 150px;}
+	.r0_1{ 	width: 180px;	height: auto;	position: fixed;	left: -1970px;}
+	.r1_1{	width: 180px;	height: auto;	position: fixed;	left: -1820px;	top: 150px;}
+	.r2_1{	width: 180px;	height: auto;	position: fixed;	left: -1670px;}
+	.r3_1{	width: 180px;	height: auto;	position: fixed;	left: -1520px;	top: 150px;}
+	.r4_1{	width: 180px;	height: auto;	position: fixed;	left:-1370px;}
+	.r5_1{	width: 180px;	height: auto;	position: fixed;	left:-1220px;	top: 150px;}
+	.r6_1{	width: 180px;	height: auto;	position: fixed;	left:-1070px;}
+	.r7_1{	width: 180px;	height: auto;	position: fixed;	left:-920px;	top: 150px;}
+	.r8_1{	width: 180px;	height: auto;	position: fixed;	left:-770px;}
+	.r9_1{	width: 180px;	height: auto;	position: fixed;	left:-620px;	top: 150px;}
+	.r10_1{	width: 180px;	height: auto;	position: fixed;	left:-470px;}
 
+.r14_2{	width: 180px;	height: auto;	position: fixed;	left: -320px;	top: 450px;}
+.r0_2{	width: 180px;	height: auto;	position: fixed;	left: -170px;	top: 300px;}
+.r1_2{	width: 180px;	height: auto;	position: fixed;	left: -20px;	top: 450px;}
+.r2_2{	width: 180px;	height: auto;	position: fixed;	left: 130px;	top: 300px;}
+.r3_2{	width: 180px;	height: auto;	position: fixed;	left: 280px;	top: 450px;}
+.r4_2{	width: 180px;	height: auto;	position: fixed;	left:430px;	top: 300px;}
+.r5_2{	width: 180px;	height: auto;	position: fixed;	left:580px;	top: 450px;}
+.r6_2{	width: 180px;	height: auto;	position: fixed;	left:730px;	top: 300px;}
+.r7_2{	width: 180px;	height: auto;	position: fixed;	left:880px;	top: 450px;}
+.r8_2{	width: 180px;	height: auto;	position: fixed;	left:1030px;	top: 300px;}
+.r9_2{	width: 180px;	height: auto;	position: fixed;	left:1180px;	top: 450px;}
+.r10_2{	width: 180px;	height: auto;	position: fixed;	left:1330px;	top: 300px;}
+.r11_2{	width: 180px;	height: auto;	position: fixed;	left:1480px;	top: 450px;}
+.r12_2{	width: 180px;	height: auto;	position: fixed;	left:1630px;	top: 300px;}
+.r13_2{	width: 180px;	height: auto;	position: fixed;	left:1780px;	top: 450px;}
+	.r14_2_1{	width: 180px;	height: auto;	position: fixed;	left: -2120px;	top: 450px;}
+	.r0_2_1{	width: 180px;	height: auto;	position: fixed;	left: -1970px;	top: 300px;}
+	.r1_2_1{	width: 180px;	height: auto;	position: fixed;	left: -1820px;	top: 450px;}
+	.r2_2_1{	width: 180px;	height: auto;	position: fixed;	left: -1670px;	top: 300px;}
+	.r3_2_1{	width: 180px;	height: auto;	position: fixed;	left: -1520px;	top: 450px;}
+	.r4_2_1{	width: 180px;	height: auto;	position: fixed;	left:-1370px;	top: 300px;}
+	.r5_2_1{	width: 180px;	height: auto;	position: fixed;	left:-1220px;	top: 450px;}
+	.r6_2_1{	width: 180px;	height: auto;	position: fixed;	left:-1070px;	top: 300px;}
+	.r7_2_1{	width: 180px;	height: auto;	position: fixed;	left:-920px;	top: 450px;}
+	.r8_2_1{	width: 180px;	height: auto;	position: fixed;	left:-770px;	top: 300px;}
+	.r9_2_1{	width: 180px;	height: auto;	position: fixed;	left:-620px;	top: 450px;}
+	.r10_2_1{	width: 180px;	height: auto;	position: fixed;	left:-470px;	top: 300px;}
 
-.r14_2{
-	width: 180px;
-	height: auto;
-	position: fixed;
-	left: -320px;
-	top: 450px;
-}
-.r0_2{
-	width: 180px;
-	height: auto;
-	position: fixed;
-	left: -170px;
-	top: 300px;
-}
-.r1_2{
-	width: 180px;
-	height: auto;
-	position: fixed;
-	left: -20px;
-	top: 450px;
-}
-.r2_2{
-	width: 180px;
-	height: auto;
-	position: fixed;
-	left: 130px;
-	top: 300px;
-}
-.r3_2{
-	width: 180px;
-	height: auto;
-	position: fixed;
-	left: 280px;
-	top: 450px;
-}
-.r4_2{
-	width: 180px;
-	height: auto;
-	position: fixed;
-	left:430px;
-	top: 300px;
-}
-.r5_2{
-	width: 180px;
-	height: auto;
-	position: fixed;
-	left:580px;
-	top: 450px;
-}
-.r6_2{
-	width: 180px;
-	height: auto;
-	position: fixed;
-	left:730px;
-	top: 300px;
-}
-.r7_2{
-	width: 180px;
-	height: auto;
-	position: fixed;
-	left:880px;
-	top: 450px;
-}
-.r8_2{
-	width: 180px;
-	height: auto;
-	position: fixed;
-	left:1030px;
-	top: 300px;
-}.r9_2{
-	width: 180px;
-	height: auto;
-	position: fixed;
-	left:1180px;
-	top: 450px;
-}.r10_2{
-	width: 180px;
-	height: auto;
-	position: fixed;
-	left:1330px;
-	top: 300px;
-}.r11_2{
-	width: 180px;
-	height: auto;
-	position: fixed;
-	left:1480px;
-	top: 450px;
-}
-.r12_2{
-	width: 180px;
-	height: auto;
-	position: fixed;
-	left:1630px;
-	top: 300px;
-}
-.r13_2{
-	width: 180px;
-	height: auto;
-	position: fixed;
-	left:1780px;
-	top: 450px;
-}
-
-
-
-
-.r14_3{
-	width: 180px;
-	height: auto;
-	position: fixed;
-	left: -320px;
-	top: 750px;
-}
-.r0_3{
-	width: 180px;
-	height: auto;
-	position: fixed;
-	left: -170px;
-	top: 600px;
-}
-.r1_3{
-	width: 180px;
-	height: auto;
-	position: fixed;
-	left: -20px;
-	top: 750px;
-}
-.r2_3{
-	width: 180px;
-	height: auto;
-	position: fixed;
-	left: 130px;
-	top: 600px;
-}
-.r3_3{
-	width: 180px;
-	height: auto;
-	position: fixed;
-	left: 280px;
-	top: 750px;
-}
-.r4_3{
-	width: 180px;
-	height: auto;
-	position: fixed;
-	left:430px;
-	top: 600px;
-}
-.r5_3{
-	width: 180px;
-	height: auto;
-	position: fixed;
-	left:580px;
-	top: 750px;
-}
-.r6_3{
-	width: 180px;
-	height: auto;
-	position: fixed;
-	left:730px;
-	top: 600px;
-}
-.r7_3{
-	width: 180px;
-	height: auto;
-	position: fixed;
-	left:880px;
-	top: 750px;
-}
-.r8_3{
-	width: 180px;
-	height: auto;
-	position: fixed;
-	left:1030px;
-	top: 600px;
-}.r9_3{
-	width: 180px;
-	height: auto;
-	position: fixed;
-	left:1180px;
-	top: 750px;
-}.r10_3{
-	width: 180px;
-	height: auto;
-	position: fixed;
-	left:1330px;
-	top: 600px;
-}.r11_3{
-	width: 180px;
-	height: auto;
-	position: fixed;
-	left:1480px;
-	top: 750px;
-}
-.r12_3{
-	width: 180px;
-	height: auto;
-	position: fixed;
-	left:1630px;
-	top: 600px;
-}
-.r13_3{
-	width: 180px;
-	height: auto;
-	position: fixed;
-	left:1780px;
-	top: 750px;
-}
-
+.r14_3{	width: 180px;	height: auto;	position: fixed;	left: -320px;	top: 750px;}
+.r0_3{	width: 180px;	height: auto;	position: fixed;	left: -170px;	top: 600px;}
+.r1_3{	width: 180px;	height: auto;	position: fixed;	left: -20px;	top: 750px;}
+.r2_3{	width: 180px;	height: auto;	position: fixed;	left: 130px;	top: 600px;}
+.r3_3{	width: 180px;	height: auto;	position: fixed;	left: 280px;	top: 750px;}
+.r4_3{	width: 180px;	height: auto;	position: fixed;	left:430px;	top: 600px;}
+.r5_3{	width: 180px;	height: auto;	position: fixed;	left:580px;	top: 750px;}
+.r6_3{	width: 180px;	height: auto;	position: fixed;	left:730px;	top: 600px;}
+.r7_3{	width: 180px;	height: auto;	position: fixed;	left:880px;	top: 750px;}
+.r8_3{	width: 180px;	height: auto;	position: fixed;	left:1030px;	top: 600px;}
+.r9_3{	width: 180px;	height: auto;	position: fixed;	left:1180px;	top: 750px;}
+.r10_3{	width: 180px;	height: auto;	position: fixed;	left:1330px;	top: 600px;}
+.r11_3{	width: 180px;	height: auto;	position: fixed;	left:1480px;	top: 750px;}
+.r12_3{	width: 180px;	height: auto;	position: fixed;	left:1630px;	top: 600px;}
+.r13_3{	width: 180px;	height: auto;	position: fixed;	left:1780px;	top: 750px;}
+.r14_3{	width: 180px;	height: auto;	position: fixed;	left: -320px;	top: 750px;}
+	.r14_3_1{	width: 180px;	height: auto;	position: fixed;	left: -2120px;	top: 750px;}
+	.r0_3_1{	width: 180px;	height: auto;	position: fixed;	left: -1970px;	top: 600px;}
+	.r1_3_1{	width: 180px;	height: auto;	position: fixed;	left: -1820px;	top: 750px;}
+	.r2_3_1{	width: 180px;	height: auto;	position: fixed;	left: -1670px;	top: 600px;}
+	.r3_3_1{	width: 180px;	height: auto;	position: fixed;	left: -1520px;	top: 750px;}
+	.r4_3_1{	width: 180px;	height: auto;	position: fixed;	left:-1370px;	top: 600px;}
+	.r5_3_1{	width: 180px;	height: auto;	position: fixed;	left:-1220px;	top: 750px;}
+	.r6_3_1{	width: 180px;	height: auto;	position: fixed;	left:-1070px;	top: 600px;}
+	.r7_3_1{	width: 180px;	height: auto;	position: fixed;	left:-920px;	top: 750px;}
+	.r8_3_1{	width: 180px;	height: auto;	position: fixed;	left:-770px;	top: 600px;}
+	.r9_3_1{	width: 180px;	height: auto;	position: fixed;	left:-620px;	top: 750px;}
+	.r10_3_1{	width: 180px;	height: auto;	position: fixed;	left:-470px;	top: 600px;}
 
 .cover {
     width: 100%;
@@ -639,7 +422,7 @@ section button:hover {
 							-2px 0px #000, -4px 0px #000, -4px 2px #000, -4px -2px #000,
 							 2px 0px #000, 4px 0px #000, 4px 2px #000, 4px -2px #000,
 							 0px 4px #000, 0px -4px #000;
-	margin-bottom: 20px;
+	margin-bottom: 10px;
 	margin-left: 10px;
 }
 .popup img{
@@ -675,10 +458,16 @@ section button:hover {
 	font-weight: bold;
 	max-height: inherit;
 	margin-left:8px;
-
-
 }
 
+.EarthStar{
+	text-align: center;
+}
+
+.Earth{
+	width: 30%;
+	height: auto;
+	}
 
 @media screen and (max-width: 700px){
 
@@ -694,6 +483,7 @@ section button:hover {
 	align-items: center;
 	margin-top: 50px;
 }
+
 
 
 /*인포인포인포인포인포인포인포인포인포인포인포인포인포인포인포인포인포인포인포인포인포인포인포인포인포인포인포인포*/
@@ -843,6 +633,7 @@ section button:hover {
     -webkit-backface-visibility: hidden;
     backface-visibility: hidden;
 		}
+
 /*//////////////////////////////////////////////////////////////////////*/
 
 .Archive {
